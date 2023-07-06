@@ -19,4 +19,6 @@ from django.urls import path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('api/products/', get_products),
+    path('api/wishlist/add/', add_to_wishlist),
 ]
